@@ -4,15 +4,13 @@
 
 install MariaDB or MySQL then excute commands bellow
 
-`
-create table members (id int, name varchar(255),kg varchar(255));
+`create table members (id int, name varchar(255),kg varchar(255));
 
 create table members (id int, name varchar(255),kg varchar(255));
 
 INSERT INTO members (name, kg) VALUES ("tatsuru","d-hacks" );
 
-UPDATE members SET id=1 WHERE name="tatsuru";
-`
+UPDATE members SET id=1 WHERE name="tatsuru";`
 
 ## Installation
 
@@ -26,8 +24,4 @@ UPDATE members SET id=1 WHERE name="tatsuru";
 
 send get request to http://127.0.0.1:8888/ then you'll get
 
-`{
-    "id": 1,
-    "kg": "d-hacks",
-    "name": "tatsuru"
-}`
+`{"id": 1,"kg": "d-hacks","name": "tatsuru"}`
