@@ -16,11 +16,6 @@ cursor.execute(
 result = cursor.fetchall()
 
 
-print(result[0])
-print({cursor.description[0][i]: result[0][i]
-       for i in range(0, len(result[0]))})
-
-
 @app.route("/")
 def index():
     return jsonify({cursor.description[i][0]: result[0][i]
