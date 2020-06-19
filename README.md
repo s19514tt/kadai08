@@ -1,6 +1,6 @@
 # kadai08
 
-## MySQL setup
+## MariaDB(or MySQL) setup
 
     install MariaDB or MySQL then excute commands bellow
     
