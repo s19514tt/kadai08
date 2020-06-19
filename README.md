@@ -18,7 +18,7 @@
 
 2.Download the file and excute
 
-3.change MySQL name and password
+3.Change MySQL name and password on python file
 
 ## Result
 
